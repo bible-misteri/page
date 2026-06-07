@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DOMUS ISAACI</title>
+
+<style>
+body{
+background:#111;
+color:white;
+font-family:Arial;
+text-align:center;
+padding-top:100px;
+}
+
+h1{
+font-size:50px;
+}
+
+p{
+font-size:22px;
+color:#ccc;
+}
+
+button{
+padding:20px 40px;
+font-size:20px;
+background:gold;
+border:none;
+cursor:pointer;
+border-radius:10px;
+}
+
+.progress-wrap{
+max-width:900px;
+margin:20px auto;
+padding:0 20px;
+}
+
+.progress-label{
+color:#87bfff;
+font-size:14px;
+margin-bottom:8px;
+}
+
+.progress{
+height:10px;
+background:#222;
+border-radius:20px;
+overflow:hidden;
+}
+
+.bar{
+height:100%;
+background:#87bfff;
+border-radius:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>DOMUS ISAACI</h1>
+
+<p>
+Ada sesuatu yang hilang di antara Abraham dan Yakub.
+</p>
+
+<button onclick="openHouse()">
+MULAI MENELUSURI
+</button>
+
+<script>
+function openHouse(){
+
+document.body.innerHTML=`
+
+<h1>RUMAH ISHAK</h1>
+
+<p>Pilih Ruangan</p>
+
+<br>
+
+<button onclick="window.location.href='seri1.DOMUS.html'">
+Mengapa Ishak Dilupakan?
+</button>
+
+<br><br>
+
+<button onclick="window.location.href='seri2.DOMUS.html'">
+Tabut yang Hilang
+</button>
+
+<br><br>
+
+<button onclick="window.location.href='seri3.misteri-sumur.html'">
+Misteri Sumur
+</button>
+
+<br><br>
+
+<button onclick="window.location.href='seri4.esau.html'">
+Esau yang Tersingkir
+</button>
+
+<br><br>
+
+<button onclick="window.location.href='seri5.rumah-sebelum-taurat.html'">
+Rumah Sebelum Taurat
+</button>
+
+`;
+
+}
+</script>
+
+</body>
+</html>
